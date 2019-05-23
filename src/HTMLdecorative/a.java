@@ -22,7 +22,7 @@ public class a extends HTMLDecorator {
 		String returnString = "";
 		
 		if (!href.equals(""))
-		returnString =  "<" + decTag + " href+"+href + ">" + decoratedSet.toHTMLString() + "</" + decTag + ">";
+			returnString =  "<" + decTag + " href+"+href + ">" + decoratedSet.toHTMLString() + "</" + decTag + ">";
 		
 		else
 			returnString = super.toHTMLString();
