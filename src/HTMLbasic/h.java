@@ -6,7 +6,7 @@ public class h extends HTML {
 		hTagNumber = num;
 		hTag = "h"+hTagNumber;
 		hTag2 = hTag;
-		}
+	}
 	public h() {
 		hTag = "h";
 	}
