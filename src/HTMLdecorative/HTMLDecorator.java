@@ -9,9 +9,11 @@ public abstract class HTMLDecorator extends HTML {
 	public HTMLDecorator(HTML html) {
 		decoratedSet = html;
 		
-}   @Override
-    public String toHTMLString() {
+	}   
+	
+	@Override
+    	public String toHTMLString() {
 		return "<" + decTag + ">" + decoratedSet.toHTMLString() + "</" + decTag + ">";
-    }
+	}
 	
 }
